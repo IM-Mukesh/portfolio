@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.exp-main {
+  background-color: #191924;
+  padding-bottom: 1.5rem;
+}
+#exp-heading {
+  text-align: center;
+  color: #e6d8d8;
+  margin-top: 2rem;
+  font-size: 2rem;
+}
+#exp-para {
+  text-align: center;
+  margin-top: 0.5rem;
+  margin-bottom: 2rem;
+  color: gray;
+}
+.exp-left-div {
+  /* background-color: red; */
+  width: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 6px;
+}
+.exp-left-div .circle {
+  width: 14px;
+  height: 14px;
+  border-radius: 100px;
+  border: 2px solid purple;
+}
+.exp-left-div .line {
+  height: 100%;
+  width: 3px;
+  background-color: purple;
+  margin-top: 8px;
+}
+.single-exp {
+  display: flex;
+  /* justify-content: center; */
+  max-width: 600px;
+  /* background-color: lightcoral; */
+  margin: 0.5rem auto;
+}
+.exp-contain {
+  border: 2px solid purple;
+  margin-left: 0.5rem;
+  padding: 1rem;
+  border-radius: 12px;
+  margin-top: 0.5rem;
+}
+.exp-contain .top-detail {
+  display: flex;
+}
+.exp-contain p {
+  color: grey;
+  margin: 0.3rem auto;
+}
+.top-detail img {
+  height: 3rem;
+  width: auto;
+  border-radius: 10px;
+}
+.top-detail div {
+  margin-left: 12px;
+}
+.top-detail div h4 {
+  font-size: 1.2rem;
+  line-height: 16px;
+  color: rgb(199, 192, 192);
+}
+.top-detail div h5 {
+  font-size: 1rem;
+  color: rgb(107, 104, 104);
+  /* line-height: 14px; */
+  margin-top: 6px;
+  margin-bottom: 4px;
+}
+.top-detail div h6 {
+  font-size: 0.75rem;
+  color: rgb(107, 104, 104);
+}
+.exp-skill-area {
+  display: flex;
+}
+.exp-skill-area h4 {
+  color: #e6d8d8;
+}
+.exp-skill-area ul {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 1rem;
+}
+.exp-skill-area ul li {
+  margin: 2px 12px;
+  color: gray;
+}
