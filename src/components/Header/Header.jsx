@@ -27,7 +27,7 @@ const Header = () => {
         <Link to="#education">Education</Link>
       </div>
       <div className="github-button">
-        <Link to="/abc">Github Profile</Link>
+        <Link to="https://github.com/IM-Mukesh">Github Profile</Link>
       </div>
     </div>
   );
