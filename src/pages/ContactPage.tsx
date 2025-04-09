@@ -67,7 +67,8 @@ export default function ContactPage() {
 
   // Animation for form elements with inline style for delay
   const getAnimationClass = (index: number) => {
-    return `transition-all duration-1000 transform ${
+    const delay = Math.min(index * 100, 1000); // prevent going over allowed delays
+    return `transition-all duration-1000 transform delay-[${delay}ms] ${
       visible ? "translate-y-0 opacity-100" : "translate-y-10 opacity-0"
     }`;
   };
